@@ -1,9 +1,9 @@
 export const links = {
-  home: 'https://www.hyperlane.xyz',
-  explorer: 'https://explorer.hyperlane.xyz',
+  home: 'https://www.validium.network',
+  explorer: 'https://devnet.explorer.validium.network',
   discord: 'https://discord.gg/VK9ZUy3aTV',
-  github: 'https://github.com/hyperlane-xyz/hyperlane-warp-ui-template',
-  docs: 'https://docs.hyperlane.xyz',
+  github: 'https://github.com/Validium-Chain',
+  docs: 'https://validium.gitbook.io/docs',
   warpDocs: 'https://docs.hyperlane.xyz/docs/reference/applications/warp-routes',
   gasDocs: 'https://docs.hyperlane.xyz/docs/reference/hooks/interchain-gas',
   chains: 'https://docs.hyperlane.xyz/docs/resources/domains',

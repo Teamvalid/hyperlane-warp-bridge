@@ -18,3 +18,56 @@
 #   protocol: ethereum
 #   rpcUrls:
 #     - http: http://127.0.0.1:8555
+
+validium:
+  blockExplorers:
+    - apiUrl: https://devnet.api.validium.network
+      family: etherscan
+      name: Validium Hyperlane BE
+      url: https://devnet.explorer.validium.network
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 1
+    reorgPeriod: 0
+  chainId: 273
+  displayName: Validium Devnet
+  domainId: 273
+  isTestnet: true
+  name: validium
+  nativeToken:
+    decimals: 18
+    name: Validium
+    symbol: VLDM
+  protocol: ethereum
+  rpcUrls:
+    - http: https://devnet.l2.rpc.validium.network
+  technicalStack: zksync
+  transactionOverrides:
+    maxFeePerGas: 1000000000
+    maxPriorityFeePerGas: 1000000000
+validiumnexus:
+  blockExplorers:
+    - apiUrl: http://165.232.181.227:3121
+      family: etherscan
+      name: Nexus Hyperlane BE
+      url: http://165.232.181.227:3111
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 1
+    reorgPeriod: 0
+  chainId: 274
+  displayName: Validium Nexus
+  domainId: 274
+  isTestnet: true
+  name: validiumnexus
+  nativeToken:
+    decimals: 18
+    name: Validium
+    symbol: VLDM
+  protocol: ethereum
+  rpcUrls:
+    - http: https://devnet.explorer.validium.network:31520
+  technicalStack: zksync
+  transactionOverrides:
+    maxFeePerGas: 1000000000
+    maxPriorityFeePerGas: 1000000000
