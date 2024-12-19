@@ -16,4 +16,5 @@ export const links = {
   linkedin: 'https://www.linkedin.com/company/validiumnetwork/',
   bounty:
     'https://github.com/search?q=org:hyperlane-xyz+label:bounty+is:open+is:issue&type=issues&s=&o=desc',
+    bridgel1tol2:'https://devnet.bridge.validium.network/bridge',
 };

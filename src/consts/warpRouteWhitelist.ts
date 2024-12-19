@@ -4,8 +4,6 @@
 // If set to a list (including an empty list), only the specified routes will be included
 // export const warpRouteWhitelist: Array<string> | null = null;
 export const warpRouteWhitelist: Array<string> | null = [
-  // 'VLDM/holesky-validium',
-  // 'ETH/holesky-validium',
   'VLDM/validium-validiumnexus',
 ];
 // Example:
