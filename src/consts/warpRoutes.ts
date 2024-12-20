@@ -17,8 +17,10 @@ export const warpRouteConfigs: WarpCoreConfig = {
       symbol: 'VLDM',
       name: 'Validium',
       addressOrDenom: '0x3bE033C2ca798152c4bc67b36739904470683029',
-      logoURI: '/logos/usdc.png',
-      connections: [{ token: 'ethereum|validiumnexus|0xAF6941d1c6FA0DBD1ECeec6781DE5C2F2fBD0184' }],
+      logoURI: '/vldm-logo.png',
+      connections: [
+        { token: 'ethereum|validiumnexus|0xAF6941d1c6FA0DBD1ECeec6781DE5C2F2fBD0184' },
+      ],
     },
     {
       chainName: 'validiumnexus',
@@ -27,7 +29,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
       symbol: 'VLDM',
       name: 'Validium',
       addressOrDenom: '0xAF6941d1c6FA0DBD1ECeec6781DE5C2F2fBD0184',
-      logoURI: '/logos/usdc.png',
+      logoURI: '/vldm-logo.png',
       connections: [{ token: 'ethereum|validium|0x3bE033C2ca798152c4bc67b36739904470683029' }],
     },
   ],

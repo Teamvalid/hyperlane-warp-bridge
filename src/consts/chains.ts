@@ -33,7 +33,7 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address }> = {
       reorgPeriod: 0,
       estimateBlockTime: 10,
     },
-    logoURI: '/logo.svg',
+    logoURI: '/vldm-logo.png',
   },
 
   validiumnexus: {
@@ -57,6 +57,6 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address }> = {
       reorgPeriod: 0,
       estimateBlockTime: 10,
     },
-    logoURI: '/logo.svg',
+    logoURI: '/vldm-logo.png',
   },
 };

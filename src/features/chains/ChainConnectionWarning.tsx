@@ -50,7 +50,7 @@ export function ChainConnectionWarning({
   return (
     <>
       <FormWarningBanner isVisible={!!unhealthyChain} cta="Edit" onClick={onClickEdit}>
-        {`Connection to ${displayName} is unstable. Consider adding a more reliable RPC URL.`}
+        <p>Connection to <b>{displayName}</b> is unstable. Consider adding a more reliable RPC URL.</p>
       </FormWarningBanner>
       <ChainSelectListModal
         isOpen={isModalOpen}
